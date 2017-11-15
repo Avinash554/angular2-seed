@@ -3,4 +3,17 @@
     <h1>
         Category list
     </h1>
+    <table id= "t01">
+        <tr>
+          <th>Name</th>
+          <th>C1</th>
+          <th>C2</th>
+          <th>C3</th>
+        </tr>
+        <tr *ngFor="let list of lists">
+          <td>{{ list.name | uppercase}}</td>
+          <td>{{ list.category}}</td>
+          <td>{{ list.amount}}</td>
+        </tr>
+    </table>
 </div>
