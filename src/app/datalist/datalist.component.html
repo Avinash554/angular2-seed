@@ -2,5 +2,10 @@
     <h1>
         Data list
     </h1>
-
+    
+        <ul *ngFor="let list of lists">
+          <li>{{ list.name}}</li>
+          <li>{{ list.category}}</li>
+          <li>{{ list.amount}}</li>
+        </ul>
 </div>
