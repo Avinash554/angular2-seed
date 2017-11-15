@@ -2,10 +2,16 @@
     <h1>
         Data list
     </h1>
-    
-        <ul *ngFor="let list of lists">
-          <li>{{ list.name}}</li>
-          <li>{{ list.category}}</li>
-          <li>{{ list.amount}}</li>
-        </ul>
+    <table id= "t01">
+        <tr>
+            <th>Name</th>
+            <th>Category</th>
+            <th>amount</th>
+        </tr>
+        <tr *ngFor="let list of lists">
+            <td>{{ list.name}}</td>
+            <td>{{ list.category}}</td>
+            <td>{{ list.amount | number:''}}</td>
+        </tr>
+    </table>
 </div>
