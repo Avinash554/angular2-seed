@@ -1,0 +1,17 @@
+<div class="container" style="text-align:center">
+    <h1>
+        Sorting list
+    </h1>
+    <table id= "t01">
+        <tr>
+            <th>Name</th>
+            <th>Category</th>
+            <th>amount</th>
+        </tr>
+        <tr *ngFor="let list of lists">
+            <td>{{ list.name}}</td>
+            <td>{{ list.category}}</td>
+            <td>{{ list.amount | number:''}}</td>
+        </tr>
+    </table>
+</div>
