@@ -26,7 +26,7 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
 
-Instructions:
+Simple Instructions:
 Step-1: clone the github url https://github.com/Avinash554/angular2-seed.git
 Step-2: npm install(Install Dependencies)
 Step-3: ng serve(starts the server)
